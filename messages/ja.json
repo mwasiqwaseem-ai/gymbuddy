@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "exercises": "エクササイズ",
+    "plans": "プラン",
+    "dashboard": "ダッシュボード",
+    "profile": "プロフィール",
+    "pricing": "料金",
+    "login": "ログイン",
+    "signup": "始める",
+    "logout": "ログアウト",
+    "admin": "管理者"
+  },
+  "hero": {
+    "badge": "パキスタン No.1 ジムアプリ",
+    "title": "スマートにトレーニング。",
+    "titleAccent": "より強くなろう。",
+    "subtitle": "AIパワードジムコンパニオン。動画ガイド、ワークアウトプラン — すべてポケットに。",
+    "cta": "無料トライアル開始",
+    "ctaSub": "7日間無料・クレジットカード不要",
+    "stats": {
+      "users": "10,000+ユーザー",
+      "exercises": "30+エクササイズ",
+      "plans": "専門家プラン"
+    }
+  },
+  "features": {
+    "title": "必要なすべて",
+    "subtitle": "結果を求めるジムユーザーのために",
+    "items": {
+      "videos": {
+        "title": "動画ガイダンス",
+        "desc": "正しいフォームと技術のHDエクササイズ動画"
+      },
+      "multilingual": {
+        "title": "3言語対応",
+        "desc": "英語、ウルドゥー語、日本語で完全サポート"
+      },
+      "plans": {
+        "title": "ワークアウトプラン",
+        "desc": "あらゆる目標のための専門家設計プログラム"
+      },
+      "tracking": {
+        "title": "進捗管理",
+        "desc": "ストリーク、ワークアウト、身体測定を追跡"
+      },
+      "ai": {
+        "title": "スマート機能",
+        "desc": "今日のワークアウトと分析付きパーソナルダッシュボード"
+      },
+      "affordable": {
+        "title": "お手頃価格",
+        "desc": "月額PKR 3,000 — パーソナルトレーナー1回分より安い"
+      }
+    }
+  },
+  "pricing": {
+    "title": "シンプルな料金",
+    "subtitle": "1プラン。すべて含む。",
+    "trial": "7日間無料トライアル",
+    "trialDesc": "フルアクセス、クレジットカード不要",
+    "monthly": "PKR 3,000",
+    "monthlyPer": "月額",
+    "included": "含まれるもの：",
+    "features": [
+      "30+エクササイズ動画",
+      "4ワークアウトプラン",
+      "進捗管理",
+      "ストリークカウンター",
+      "3言語サポート",
+      "毎月新しいコンテンツ"
+    ],
+    "cta": "無料トライアル開始",
+    "cancel": "いつでもキャンセル可能"
+  },
+  "auth": {
+    "loginTitle": "おかえりなさい",
+    "loginSub": "フィットネスの旅を続けるためにログイン",
+    "signupTitle": "Gym Buddyに参加",
+    "signupSub": "今日7日間の無料トライアルを始めよう",
+    "googleLogin": "Googleで続ける",
+    "phoneLogin": "電話番号で続ける",
+    "phonePlaceholder": "+92 300 0000000",
+    "otpSent": "OTPが電話に送信されました",
+    "verifyOtp": "OTPを確認",
+    "otpPlaceholder": "6桁のOTPを入力",
+    "noAccount": "アカウントをお持ちでない方は？",
+    "hasAccount": "すでにアカウントをお持ちの方は？",
+    "signupLink": "サインアップ",
+    "loginLink": "ログイン"
+  },
+  "dashboard": {
+    "title": "ダッシュボード",
+    "greeting": "おはようございます",
+    "streak": "日連続",
+    "todayWorkout": "今日のワークアウト",
+    "totalWorkouts": "合計ワークアウト",
+    "calories": "消費カロリー",
+    "favorites": "保存済みエクササイズ",
+    "startWorkout": "ワークアウト開始",
+    "viewAll": "すべて表示",
+    "trialBanner": "無料トライアルは{days}日後に終了します",
+    "upgradeBanner": "旅を続けるためにアップグレード",
+    "upgrade": "今すぐアップグレード"
+  },
+  "exercises": {
+    "title": "エクササイズライブラリ",
+    "subtitle": "動画ガイダンスですべての動きをマスター",
+    "search": "エクササイズを検索...",
+    "filterMuscle": "筋肉グループ",
+    "filterDifficulty": "難易度",
+    "filterEquipment": "器具",
+    "all": "すべて",
+    "save": "保存",
+    "saved": "保存済み",
+    "sets": "セット",
+    "reps": "レップ",
+    "calories": "カロリー",
+    "watchVideo": "動画を見る",
+    "instructions": "説明"
+  },
+  "plans": {
+    "title": "ワークアウトプラン",
+    "subtitle": "あらゆる目標のための専門家設計プログラム",
+    "weeks": "週間",
+    "frequency": "頻度",
+    "difficulty": "難易度",
+    "startPlan": "このプランを始める",
+    "exercises": "エクササイズ"
+  },
+  "profile": {
+    "title": "マイプロフィール",
+    "editProfile": "プロフィール編集",
+    "height": "身長 (cm)",
+    "weight": "体重 (kg)",
+    "age": "年齢",
+    "goal": "フィットネス目標",
+    "goals": ["筋肉をつける", "体重を減らす", "健康を維持", "強さを増す", "持久力を上げる"],
+    "save": "変更を保存",
+    "subscription": "サブスクリプション",
+    "status": "ステータス",
+    "trial": "無料トライアル",
+    "active": "アクティブ",
+    "expired": "期限切れ",
+    "manageSub": "サブスクリプション管理"
+  },
+  "footer": {
+    "tagline": "あなたのデジタルジムトレーナー",
+    "rights": "全著作権所有",
+    "links": {
+      "about": "について",
+      "contact": "お問い合わせ",
+      "privacy": "プライバシー",
+      "terms": "利用規約"
+    }
+  }
+}

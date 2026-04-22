@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "Home",
+    "exercises": "Exercises",
+    "plans": "Plans",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "pricing": "Pricing",
+    "login": "Login",
+    "signup": "Get Started",
+    "logout": "Logout",
+    "admin": "Admin"
+  },
+  "hero": {
+    "badge": "Pakistan's #1 Gym App",
+    "title": "Train Smarter.",
+    "titleAccent": "Get Stronger.",
+    "subtitle": "Your AI-powered gym companion. Video guides, workout plans, and multilingual support — all in your pocket.",
+    "cta": "Start Free Trial",
+    "ctaSub": "7 Days Free • No Credit Card Required",
+    "stats": {
+      "users": "10,000+ Users",
+      "exercises": "30+ Exercises",
+      "plans": "Expert Plans"
+    }
+  },
+  "features": {
+    "title": "Everything You Need",
+    "subtitle": "Built for Pakistani gym goers who want results",
+    "items": {
+      "videos": {
+        "title": "Video Guidance",
+        "desc": "HD exercise videos with proper form and technique demonstrations"
+      },
+      "multilingual": {
+        "title": "3 Languages",
+        "desc": "Full support in English, Urdu and Japanese"
+      },
+      "plans": {
+        "title": "Workout Plans",
+        "desc": "Expert-designed programs for every goal and fitness level"
+      },
+      "tracking": {
+        "title": "Progress Tracking",
+        "desc": "Track your streak, workouts and body measurements"
+      },
+      "ai": {
+        "title": "Smart Features",
+        "desc": "Personalized dashboard with your today's workout and analytics"
+      },
+      "affordable": {
+        "title": "Affordable",
+        "desc": "Just PKR 3,000/month — cheaper than one PT session"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Simple Pricing",
+    "subtitle": "One plan. Everything included.",
+    "trial": "7-Day Free Trial",
+    "trialDesc": "Full access, no credit card needed",
+    "monthly": "PKR 3,000",
+    "monthlyPer": "per month",
+    "included": "What's included:",
+    "features": [
+      "30+ Exercise Videos",
+      "4 Workout Plans",
+      "Progress Tracking",
+      "Streak Counter",
+      "3 Language Support",
+      "New Content Monthly"
+    ],
+    "cta": "Start Free Trial",
+    "cancel": "Cancel anytime"
+  },
+  "auth": {
+    "loginTitle": "Welcome Back",
+    "loginSub": "Login to continue your fitness journey",
+    "signupTitle": "Join Gym Buddy",
+    "signupSub": "Start your 7-day free trial today",
+    "googleLogin": "Continue with Google",
+    "phoneLogin": "Continue with Phone",
+    "phonePlaceholder": "+92 300 0000000",
+    "otpSent": "OTP sent to your phone",
+    "verifyOtp": "Verify OTP",
+    "otpPlaceholder": "Enter 6-digit OTP",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signupLink": "Sign up",
+    "loginLink": "Login"
+  },
+  "dashboard": {
+    "title": "Your Dashboard",
+    "greeting": "Good morning",
+    "streak": "Day Streak",
+    "todayWorkout": "Today's Workout",
+    "totalWorkouts": "Total Workouts",
+    "calories": "Calories Burned",
+    "favorites": "Saved Exercises",
+    "startWorkout": "Start Workout",
+    "viewAll": "View All",
+    "trialBanner": "Your free trial ends in {days} days",
+    "upgradeBanner": "Upgrade to continue your journey",
+    "upgrade": "Upgrade Now"
+  },
+  "exercises": {
+    "title": "Exercise Library",
+    "subtitle": "Master every movement with video guidance",
+    "search": "Search exercises...",
+    "filterMuscle": "Muscle Group",
+    "filterDifficulty": "Difficulty",
+    "filterEquipment": "Equipment",
+    "all": "All",
+    "save": "Save",
+    "saved": "Saved",
+    "sets": "Sets",
+    "reps": "Reps",
+    "calories": "cal",
+    "watchVideo": "Watch Video",
+    "instructions": "Instructions"
+  },
+  "plans": {
+    "title": "Workout Plans",
+    "subtitle": "Expert-designed programs for every goal",
+    "weeks": "weeks",
+    "frequency": "Frequency",
+    "difficulty": "Difficulty",
+    "startPlan": "Start This Plan",
+    "exercises": "exercises"
+  },
+  "profile": {
+    "title": "My Profile",
+    "editProfile": "Edit Profile",
+    "height": "Height (cm)",
+    "weight": "Weight (kg)",
+    "age": "Age",
+    "goal": "Fitness Goal",
+    "goals": ["Build Muscle", "Lose Weight", "Stay Fit", "Increase Strength", "Improve Endurance"],
+    "save": "Save Changes",
+    "subscription": "Subscription",
+    "status": "Status",
+    "trial": "Free Trial",
+    "active": "Active",
+    "expired": "Expired",
+    "manageSub": "Manage Subscription"
+  },
+  "footer": {
+    "tagline": "Your digital gym trainer",
+    "rights": "All rights reserved",
+    "links": {
+      "about": "About",
+      "contact": "Contact",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    }
+  }
+}

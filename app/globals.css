@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neon-green: #39FF14;
+  --neon-orange: #FF6B00;
+  --gym-black: #0A0A0A;
+  --gym-dark: #111111;
+  --gym-card: #1A1A1A;
+  --gym-border: #2A2A2A;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--gym-black);
+  color: white;
+  font-family: var(--font-inter), sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--gym-dark); }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--neon-green); }
+
+/* Neon glow text */
+.neon-text {
+  color: var(--neon-green);
+  text-shadow: 0 0 10px var(--neon-green), 0 0 20px var(--neon-green)40;
+}
+
+.neon-orange {
+  color: var(--neon-orange);
+  text-shadow: 0 0 10px var(--neon-orange)80;
+}
+
+/* Neon border card */
+.neon-card {
+  border: 1px solid var(--gym-border);
+  background: var(--gym-card);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.neon-card:hover {
+  border-color: var(--neon-green)40;
+  box-shadow: 0 0 20px var(--neon-green)10;
+}
+
+/* Shimmer skeleton */
+.skeleton {
+  background: linear-gradient(90deg, #1A1A1A 25%, #2A2A2A 50%, #1A1A1A 75%);
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite linear;
+}
+
+@keyframes shimmer {
+  0% { background-position: -1000px 0; }
+  100% { background-position: 1000px 0; }
+}
+
+/* Streak fire animation */
+@keyframes streakPop {
+  0% { transform: scale(0.5) rotate(-10deg); opacity: 0; }
+  50% { transform: scale(1.2) rotate(5deg); }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+.streak-pop {
+  animation: streakPop 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+/* Glow button */
+.btn-neon {
+  background: var(--neon-green);
+  color: #000;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-neon:hover {
+  box-shadow: 0 0 20px var(--neon-green)60, 0 0 40px var(--neon-green)30;
+  transform: translateY(-1px);
+}
+
+.btn-neon:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* Badge difficulty colors */
+.badge-beginner { background: #1a3a1a; color: #39FF14; }
+.badge-intermediate { background: #3a2a0a; color: #FF9500; }
+.badge-advanced { background: #3a0a0a; color: #FF4444; }
+
+/* RTL for Urdu */
+[dir="rtl"] { font-family: var(--font-inter), 'Noto Nastaliq Urdu', sans-serif; }
+
+/* Grid background */
+.grid-bg {
+  background-image: linear-gradient(rgba(57,255,20,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(57,255,20,0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Page transition */
+.page-enter {
+  animation: pageEnter 0.4s ease forwards;
+}
+
+@keyframes pageEnter {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* YouTube embed */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border-radius: 12px;
+}
+
+/* Gradient overlays */
+.hero-gradient {
+  background: radial-gradient(ellipse at 20% 50%, rgba(57,255,20,0.08) 0%, transparent 60%),
+              radial-gradient(ellipse at 80% 20%, rgba(255,107,0,0.06) 0%, transparent 60%);
+}
